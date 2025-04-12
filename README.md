@@ -25,10 +25,11 @@ I named my group gdhsoclab and put it in the East US 2 Region.
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/2c44197a-40be-4692-b47a-224c4ed8aa5d" />
 
- <img width="468" alt="image" src="https://github.com/user-attachments/assets/d623d236-f6f1-442e-8418-f426aa5bc373" />
  
 2)	After creating the gdhsoclab Resource group. I navigated to Virtual Network.
 a.	I created a virtual network called VNETSCOLAB and clicked review + create.
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/d623d236-f6f1-442e-8418-f426aa5bc373" />
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/02d577f0-9023-4cb9-9a35-418585e04cb0" />
 
