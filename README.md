@@ -1,16 +1,19 @@
 # SIEM LAB
 
-## Objective
+## Project Overview
 
-The SIEM Lab project aims to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+In this lab, I designed and implemented a virtual environment leveraging Microsoft Azure services to simulate a basic Security Information and Event Management, system using Microsoft Sentinel. 
 
-### Skills Learned
+Key components include:
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Creation of a Resource Group, Virtual Network, and Subnet
+- Configuration of a Virtual Machine (VM) with public internet access
+- Deployment of Log Analytics Workspace as the central log repository
+- Installation of the Azure Monitoring Agent on the VM to collect logs
+- Connection of Microsoft Sentinel to the Log Analytics Workspace
+- Integration of a watchlist with geographic data
+- Utilization of Kusto Query Language to identify and analyze failed logons
+- Mapping of attacker IPs to visualize the threat landscape
 
 ### Tools Used
 
@@ -174,6 +177,32 @@ I used a KPL query because it specifically filters the logs for failed login att
  
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/a87feecb-11dc-4089-b5e9-3d522c12b974" />
 
- 
+ 23)Now I’m creating a watchlist using a .csv file.
+ <img width="468" alt="image" src="https://github.com/user-attachments/assets/9e9f5ca6-da27-4603-9dec-0b24cc18e81e" />
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/1be6c02a-67a6-4ff9-b635-70abdea09a42" />
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/7523cb07-79c1-455a-a626-5545be1e4251" />
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/91beb7a5-45f0-4d50-ad9b-e61553b59322" />
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/97e952f3-8d8a-4975-8459-0a8eaea7dbc2" />
+
+
+23)	I was able to pullup the attacker’s IpAddress , city,country,and coordinates. This is useful to find an attacker who has committed a crime
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/929f10b6-b21d-49ea-8e9e-6cae349ff5d5" />
+
+
+24)24)	The last thing I did was create an attack map by creating a new workook using a Json file.
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/8e65fc2c-1bef-40c8-a92a-d5844f538caf" />
+
+25)	I clicked Advanced editor and pasted the JSON text.and clicked done editing.
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/35744a18-53c0-4d92-adfc-f6feceae1c99" />
+
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/b3356b9e-49ff-4530-8a2b-d9b16a5e12c3" />
 
 
